@@ -1,3 +1,4 @@
+/*esto es un selector (por etiqueta), acompañadao de propiedades:valores*/
 body {
     background-color: #f0f4f8;
     font-family: 'Roboto', sans-serif;
@@ -46,3 +47,13 @@ h1 {
     line-height: 1.4;
     margin-top: 10px;
 }
+
+/*Selector universal (*) signigica que aplica a todos los elementos de html, se usa generalmente cuando se quiere resetear*/
+/*y es muy importante, se usa para sacar el relleno en principio*/
+
+/*selector por clase, aplica a todos los selectores que tengan la clase, se 
+identifica "class=colorfucsia" un color de referencia que se
+entienda a donde aplica. Y en css va con "." y el nombre que se puso*/
+
+/*los id es un atributo y los utilizaria para js y class para css
+*/
