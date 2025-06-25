@@ -6,6 +6,13 @@ body {
     padding: 20px;
 }
 
+.titulo{
+    text-align:center;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+
 .tarjeta {
     background-color: white;
     width: 500px;
@@ -48,6 +55,11 @@ h1 {
     margin-top: 10px;
 }
 
+.lista{
+    text-align:left;
+    margin: 10px 0px;
+    font-weight: bold;
+}
 /*Selector universal (*) signigica que aplica a todos los elementos de html, se usa generalmente cuando se quiere resetear*/
 /*y es muy importante, se usa para sacar el relleno en principio*/
 
@@ -56,4 +68,14 @@ identifica "class=colorfucsia" un color de referencia que se
 entienda a donde aplica. Y en css va con "." y el nombre que se puso*/
 
 /*los id es un atributo y los utilizaria para js y class para css
+*/
+/*selector descendente va padre e hijo por ejemplo div p
+div p{}*/
+
+/*selector hijo directo por ejemplo section>
+section > span {}*/
+
+/*selector de atributo, en este caso quiere decir que hace referencia al texto
+input[tyo="text"] {
+}
 */
