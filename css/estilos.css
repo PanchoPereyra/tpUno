@@ -1,46 +1,50 @@
 /*esto es un selector (por etiqueta), acompañadao de propiedades:valores*/
 body {
     background-color: #f0f4f8;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 20px;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-.titulo{
-    text-align:center;
-    margin: 10px 0px;
-    font-weight: bold;
-}
-
-
-.tarjeta {
-    background-color: white;
-    width: 500px;
-    padding: 20px;
-    margin: 10px auto;
-    border: 5px solid #4CAF50;
-    border-radius: 12px;
-    text-align: center;
-    color: #333;
-}
-
-.perfil {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #4CAF50;
-    margin-bottom: 15px;
-    transition: transform 0.3s ease;
-}
-
-.avatar:hover {
-    transform: scale(1.05);
 }
 
 h1 {
     margin: 10px 0 5px;
     font-size: 24px;
-    color: #2c3e50;
+    color: black;
+
+}
+
+.titulo{
+    /*esto estaría - probar otra fuente*/
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.tarjeta {
+    width: 600px;
+    padding: 5px;
+    margin: 15px auto;
+    border: solid #000000  3px;
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+    background-color: #CF0F47;
+}
+
+.perfil {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    margin-bottom: 15px;
+
+}
+
+.avatar:hover {
+    transform: scale(1.05);
 }
 
 .ocupacion {
@@ -51,6 +55,7 @@ h1 {
 
 .descripcion {
     font-size: 14px;
+    color:crimson;
     line-height: 1.4;
     margin-top: 10px;
 }
@@ -59,7 +64,28 @@ h1 {
     text-align:left;
     margin: 10px 0px;
     font-weight: bold;
+    color:rgb(19, 1, 5);
+    
 }
+
+.principal{
+    background-color: #FF0B55;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 15px;
+     border: solid #000000  3px;
+    border-radius: 10px;
+}
+
+.secundario{
+    background-color: #FFDEDE;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 15px;
+    border: solid #000000  3px;
+    border-radius: 10px;
+}
+
 /*Selector universal (*) signigica que aplica a todos los elementos de html, se usa generalmente cuando se quiere resetear*/
 /*y es muy importante, se usa para sacar el relleno en principio*/
 
@@ -79,3 +105,4 @@ section > span {}*/
 input[tyo="text"] {
 }
 */
+
