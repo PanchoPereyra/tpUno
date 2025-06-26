@@ -1,7 +1,5 @@
-#PRACTICO Nº1
-Se hace una tarjeta de presentación personal, con una breve descripción relacionada a la ocupación, gustos personales, etc
+# PRACTICO Nº1
+**_Se hace una tarjeta de presentación personal, con una breve descripción relacionada a la ocupación, gustos personales, etc._**
 
-##TECNOLOGIAS
-Se utilia: 
--HTML
--CSS
+### TECNOLOGIAS
+_Se utilia: HTML y CSS._
