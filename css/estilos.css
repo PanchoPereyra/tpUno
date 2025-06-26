@@ -7,6 +7,7 @@ body {
 
 h1 {
     margin: 10px 0 5px;
+    padding: 3px;
     font-size: 24px;
     color: black;
 
@@ -29,7 +30,7 @@ h1 {
     border: solid #000000  3px;
     border-radius: 10px;
     text-align: center;
-    color: #333;
+    color: #000000;
     background-color: #CF0F47;
 }
 
@@ -45,12 +46,14 @@ h1 {
 
 .avatar:hover {
     transform: scale(1.05);
+    padding: 20px 
 }
 
 .ocupacion {
     margin: 5px 0;
     font-weight: bold;
-    color: #4CAF50;
+    color: #000000;
+
 }
 
 .descripcion {
@@ -58,14 +61,6 @@ h1 {
     color:crimson;
     line-height: 1.4;
     margin-top: 10px;
-}
-
-.lista{
-    text-align:left;
-    margin: 10px 0px;
-    font-weight: bold;
-    color:rgb(19, 1, 5);
-    
 }
 
 .principal{
