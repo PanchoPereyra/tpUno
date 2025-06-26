@@ -14,7 +14,6 @@ h1 {
 }
 
 .titulo{
-    /*esto estaría - probar otra fuente*/
     text-align:center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
@@ -81,23 +80,4 @@ h1 {
     border-radius: 10px;
 }
 
-/*Selector universal (*) signigica que aplica a todos los elementos de html, se usa generalmente cuando se quiere resetear*/
-/*y es muy importante, se usa para sacar el relleno en principio*/
-
-/*selector por clase, aplica a todos los selectores que tengan la clase, se 
-identifica "class=colorfucsia" un color de referencia que se
-entienda a donde aplica. Y en css va con "." y el nombre que se puso*/
-
-/*los id es un atributo y los utilizaria para js y class para css
-*/
-/*selector descendente va padre e hijo por ejemplo div p
-div p{}*/
-
-/*selector hijo directo por ejemplo section>
-section > span {}*/
-
-/*selector de atributo, en este caso quiere decir que hace referencia al texto
-input[tyo="text"] {
-}
-*/
 
